@@ -44,6 +44,41 @@
             transition: all 0.2s ease;
             text-align: left;
         }
+
+        .leader {
+            display: inline-block;
+        }
+
+        .leader a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: antiquewhite;
+        }
+
+        .leader a.active {
+            background-color: aqua;
+            border-radius: 5px;
+            color: blue;
+        }
+
+        .leader a:hover:not(.active){
+            background-color: aquamarine;
+            border-radius: 5px;
+
+        }
+
+        .h1 {
+            text-align: center;
+            color: #A4193D;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .h2 {
+            text-align: center;
+            color: #A4193D;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        } 
     </style>
 </head>
 <body>
@@ -55,6 +90,20 @@
         <a href="andrewlyann@code.example">andrewlyann@code.example</a>
         <input type="text" name="input" id="" class="file">
         <input type="checkbox" name="" id="code">
+    </div>
+    <h1 class="h1">Rounded Active and Hover Button</h1>
+    <h2 class="h2">Learning Coding with Andrewlyann</h2>
+    <div class="leader">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">&raquo;</a>
     </div>
 </body>
 </html>
