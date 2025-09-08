@@ -6,6 +6,7 @@
     <title>form</title>
 </head>
 <body>
+    <marquee behavior="" direction="right">AndrewLyann</marquee>
     <h1>Student Register</h1>
     <form action="register.php" method="GET">
     <div>
@@ -15,29 +16,85 @@
 
     <br>
     <div>
-        <label for="age">Student Age</label>
-        <input type="number" name="studentage" id="age" min="18" max="30" step="1" required>
+        <label for="age">Student Age</label><br>
+        <input type="number" name="studentage" id="age" min="18" max="30" step="1">
     </div>
 
     <br>
     <div>
-        <label for="phone">Student Phone</label>
-        <input type="number" name="studentphone" id="phone" min="9" max="10" placeholder="09*********" required>
+        <label for="phone">Student Phone</label><br>
+        <input type="number" name="studentphone" id="phone" placeholder="09*********">
     </div>
 
     <br>
     <div>
-        <label for="email">Email</label>
-        <input type="email" name="studentemail" placeholder="Andrewlyann@gmail.com" id="email999" required>
+        <label for="email">Email</label><br>
+        <input type="email" name="studentemail" placeholder="Andrewlyann@gmail.com" id="email999">
     </div>
 
     <br>
     <div>
-        <label for="password">Password</label>
+        <label for="password">Password</label><br>
         <input type="password" name="password" id="password" placeholder="Enter your password">
     </div>
+    
+    <br>
+    <div>
+        <label for="dob">DOB</label><br>
+        <input type="date" id="dob" name="dob">
+    </div>
 
     <br>
+    <div>
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo">
+    </div>
+
+    <br><br>
+    <label for="">Hobbies</label>
+    <div>
+        <input type="checkbox" id="Learning" value="Learning" name="Hobbies">
+        <label for="Learning">Learning</label>
+    </div>
+    <div>
+        <input type="checkbox" id="Coding" value="Coding" name="Hobbies">
+        <label for="Coding">Coding</label>
+    </div>
+    <div>
+        <input type="checkbox" id="Programming" name="Hobbies">
+        <label for="Programming">Programming</label>
+    </div>
+    <div>
+        <input type="checkbox" id="Swimming" name="Hobbies">
+        <label for="Swimming">Swimming</label>
+    </div>
+
+    <br>
+    <label for="education">Education</label>
+    <select name="education" id="education">
+        <option value="0">Choose Education</option>
+        <option value="1">First year</option>
+        <option value="2">Second year</option>
+        <option value="3">Third year</option>
+        <option value="4">Fourth year</option>
+        <option value="5">Final year</option>
+    </select>
+
+    <br><br>
+    <fieldset>
+        <legend>Spiderman real names</legend>
+        <ol>
+            <li>Tobie Maguire</li>
+            <li>Andrew Garfield</li>
+            <li>Tom Holland</li>
+        </ol>
+    </fieldset>
+
+    <br><br>
+    <label for="address">Address</label>
+    <textarea name="address" id="address"></textarea>
+
+    <br><br>
     <button type="submit">Register</button>
     </form>
 </body>
