@@ -23,7 +23,7 @@
     <br>
     <div>
         <label for="phone">Student Phone</label><br>
-        <input type="number" name="studentphone" id="phone" placeholder="09*********">
+        <input type="number" name="studentphone" id="phone" placeholder="09*********" pattern="0-9" minlength="9" maxlength="10">
     </div>
 
     <br>
@@ -69,7 +69,18 @@
         <label for="Swimming">Swimming</label>
     </div>
 
-    <br>
+    <br><br>
+    <label for="">Gender</label>
+    <div>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label>
+    </div>
+    <div>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="female">Female</label>
+    </div>
+
+    <br><br>
     <label for="education">Education</label>
     <select name="education" id="education">
         <option value="0">Choose Education</option>
