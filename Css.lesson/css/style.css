@@ -1,0 +1,28 @@
+/* universal Selector */
+*{
+    color: powderblue;
+    /* margin: 0px */
+    /* padding: 0px */
+    background-color: gray;
+}
+
+/* tag selector */
+p{
+    color: violet;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* attribute selector */
+input[type=text]{
+    color: blue;
+    letter-spacing: 0px;
+}
+
+input[type=number]{
+    color: aqua;
+}
+
+a[title=google]{
+    color: pink;
+}

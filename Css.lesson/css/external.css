@@ -1,0 +1,49 @@
+h1{
+    color: deepskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* id selector */
+#idselector{
+    color: greenyellow;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 25px;
+    word-spacing: 15px;
+    text-indent: 10px;
+    background-color: black;
+}
+
+/* class selector */
+.classselector{
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 15px;
+    word-spacing: 10px;
+    text-indent: 10px;
+    background-color: grey;
+}
+
+.pclass{
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    word-spacing: 10px;
+    text-indent: 10px;
+    background-color: powderblue;
+}
+
+/* desc selector */
+#desc a{
+    color: greenyellow;
+    background-color: black;
+    text-indent: 10px;
+}
+
+/* child selector */
+.child > a{
+    color: greenyellow;
+    background-color: black;
+    text-indent: 10px;
+}
