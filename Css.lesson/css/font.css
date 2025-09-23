@@ -1,0 +1,13 @@
+/* Font / offline font*/
+@font-face {
+    src: url(../Smooch_Sans/SmoochSans-VariableFont_wght.ttf);
+    font-family: "l";
+}
+body {
+    background-color: #a1b2c3;
+}
+
+.font-style {
+    font-family: "l";
+    color: #56f9ff;
+}

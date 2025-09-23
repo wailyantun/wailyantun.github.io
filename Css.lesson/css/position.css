@@ -1,0 +1,33 @@
+/* position */
+.position_relative_parent{
+    border: 2px solid blue;
+    width: 1000px;
+    height: 500px;
+}
+.position_relative{
+    border: 2px solid aqua;
+    width: 600px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.position_absolute_parent{
+    border: 2px solid blue;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+.position_absolute{
+    border: 2px solid aqua;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}

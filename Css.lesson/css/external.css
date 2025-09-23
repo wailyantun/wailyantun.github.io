@@ -43,7 +43,146 @@ h1{
 
 /* child selector */
 .child > a{
-    color: greenyellow;
+    color: powderblue;
     background-color: black;
     text-indent: 10px;
+}
+
+/* psoudo  */
+/* a:link{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: aqua;
+} */
+
+/* terget */
+
+p:target{
+    color: rgb(pink, grey, powderblue);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+div:target{
+    color: blue;
+    text-transform: lowercase;
+}
+
+/* border */
+body{
+    background-color: gray;
+}
+.border1{
+    border: 10px solid yellow;
+}
+.border2{
+    border-bottom: 20px solid blue;
+}
+.border3{
+    /* border-style: dotted; */
+    /* all */
+    /* border-style: dotted solid; */
+    /* T&B / L&R */
+    border-style: solid dotted double;
+    /* T / L&R / B */
+    /* border-style: solid dashed double dotted; */
+    /* T / R / B / L */
+}
+.border4{
+    border-style: solid;
+    border-width: 30px 50px 80px;
+    border-color: red blue green yellow;
+}
+
+/* Margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.marging1{
+    margin: 50px 100px;
+    border: 10px solid aqua;
+}
+.marging2{
+    margin: 50px 100px;
+    border: 10px solid aqua;
+}
+
+
+/* Padding */
+.padding1{
+    /* padding: 10px 200px; */
+    border: 5px solid aqua;
+    padding-top: 250px;
+}
+
+/* Layout */
+.inline{
+    border: 5px solid aqua;
+    width: 300px;
+    display: inline-block;
+}
+
+.block{
+    border: 5px solid yellow;
+    width: 300px;
+    display: inline-block;
+}
+
+/* Float */
+.floatleft img{
+    width: 30%;
+    border: 2px solid yellow;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.floatright img{
+    width: 30%;
+    border: 2px solid aqua;
+    float: right;
+}
+
+/* Grid */
+.grid1 div,.grid2 div,.grid3 div,.grid4 div,.grid5{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.gird1,.grid2,.gird3,.grid4,.gird5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gird2{
+    grid-column-gap: 40px;
+}
+.gird3{
+    grid-row-gap: 50px;
+}
+.grid4{
+    grid-gap: 40px;
+    /* grid-column-gap: 40px; */
+    /* grid-row-gap: 60px; */
+}
+
+/* position */
+.position_relative_parents{
+    border: 2px solid blue;
+    width: 1000px;
+    height: 500px;
 }
