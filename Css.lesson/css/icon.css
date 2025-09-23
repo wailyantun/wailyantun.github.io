@@ -1,0 +1,28 @@
+/* media */
+/* phone size */
+@media (max-width: 600px){
+    body{
+        background-color: aqua;
+    }
+}
+
+/* tablet size */
+@media (min-width: 601px) and (max-width: 900px){
+    body {
+        background-color: chartreuse;
+    }
+}
+
+/* laptop size */
+@media (min-width: 901px) and (max-width: 1200px){
+    body {
+        background-color: rgb(227, 17, 255);
+    }
+}
+
+/* extra size */
+@media (min-width:1201px){
+    body{
+        background-color: orangered;
+    }
+}

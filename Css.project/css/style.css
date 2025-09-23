@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Libre";
+    src: url(../font/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Libre";
+}
+
+/* start nac */
+.nav_logo {
+    width: 210px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav_item {
+    float: right;
+}
+.nav_item li {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+.nav_item li a{
+    text-decoration: none;
+}
+.nav_item li a:hover {
+    color: #0254a0;
+}
+.nav_gs {
+    background-color: #0254a0;
+    color: #ffffff;
+    display: inline-block !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+      border: 1px solid #0254a0;
+}
+.nav_gs:hover {
+    background-color: #ffffff;
+    color: #0254a0 !important;
+    border: 1px solid #0254a0;
+}
+/* end nav */
