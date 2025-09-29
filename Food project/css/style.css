@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Karla";
+    src: url(../fonts/Karla/Karla/Karla-VariableFont_wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Karla";
+}
+
+/* start nav */
+.nav_logo{
+    width: 180px;
+    height: 150px;
+    margin-left: 30px;
+}
+.nav_item{
+    float: right;
+}
+.nav_item li{
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.nav_item li a{
+    text-decoration: none;
+}
+.a_item{
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.a_item:hover{
+    color: #a84f22;
+}
+.quick_order{
+    background-color: #a84f22;
+    color: #d7d7d7;
+    border: 1px solid #a84f22;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: color 0.5s ease;
+}
+.quick_order:hover{
+    background-color: #ffffff;
+    color: #a84f22;
+}
+/* end nav */
+
+/* start bunner */
+.bunner_photo{
+    width: 100%;
+    height: -30%;
+    margin-top: -10px;
+}
+.bunner{
+    position: relative;
+}
+.bunner_text{
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    color: #a84f22;
+    text-align: center;
+}
+.bunner h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.bunner h1{
+    font-size: 50px;
+}
+.bunner_p1{
+    font-size: 25px;
+}
+.bunner_p2{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.order_now{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #a84f22;
+    border: 1px solid #a84f22;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.5s ease;
+}
+.order_now:hover{
+    background-color: #a84f22;
+    color: #ffffff;
+}
+/* end bunner */
+
+/* start menu */
+.menu{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+
+    margin-bottom: 100%;
+}
+.menu_card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    grid-gap: 30px;
+}
+.menu_card img{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+.menu_images{
+    padding: 5px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    text-align: center;
+}
