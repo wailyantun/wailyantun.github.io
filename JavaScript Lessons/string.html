@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <h1>String Lessons</h1>
+
+    <script>
+        let firstName = "Developer";
+        let lastName = "Andrew Lyann"
+        console.log(lastName.length);
+        // let fullName = firstName + ' ' + lastName;
+        let fullName = firstName.concat(' ',lastName);
+        console.log(fullName);
+
+        console.log("My name is " + fullName);
+
+        document.write("<h1>" + fullName + "</h1>");
+        document.write(`<h1> My name is ${fullName} </h1>`);
+        console.log(fullName.toLocaleUpperCase());
+        console.log(fullName.toLocaleLowerCase());
+
+        let job = '         web         Developer';
+        console.log(job.trim()); //remove space
+
+        let ser = 'JavaScript is Funny';
+        console.log(ser.search('is'));
+
+        let rep = 'My name is Developer Andrew Lyann';
+        console.log(rep.replace('Andrew Lyann','Wai Lyan Tun'));
+        
+        console.log('I\'m Andrew Lyann');
+        console.log("I'm Andrew Lyann");
+        console.log("I'm Andrew Lyann.5'4\"");
+        console.log(`I'm Andrew Lyann.5'4"`);
+        
+    </script>
+</body>
+</html>
