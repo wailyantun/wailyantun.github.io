@@ -10,9 +10,10 @@
 
 /* start nav */
 .nav_logo{
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 180px;
     margin-left: 30px;
+    margin-top: -10px;
 }
 .nav_item{
     float: right;
@@ -52,7 +53,7 @@
 .bunner_photo{
     width: 100%;
     height: -30%;
-    margin-top: -10px;
+    margin-top: -40px;
 }
 .bunner{
     position: relative;
@@ -232,17 +233,20 @@
     width: 80%;
     margin: auto;
     margin-top: 300px;
-
-
-    margin-bottom: 30%;
 }
 .review h1{
     text-align: center;
     margin-bottom: 30px;
 }
 .review > p{
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
+}
+.customer_name{
+    margin-bottom: 20px;
+}
+.customer_txt{
+    margin-top: 60px;
 }
 .customer_review{
     display: grid;
@@ -253,26 +257,118 @@
     width: 30%;
     float: left;
     border-radius: 100px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
 }
 .customer_review div{
     background-color: #f09162;
     color: #0a174e;
     padding: 40px;
-    border: 1px solid #d7d7d7;
+    /* border: 1px solid #d7d7d7; */
     border-radius: 10px;
 }
+.star_rating{
+    color: #ffe600;
+    margin: 5px 0px;
+}
+
 /* start footer */
-/* .footer{
-    width: auto;
-    margin: auto;
+#footer{
+    background-color: #3e2723;
+    color: #ffffff;
+    padding: 50px;
     margin-top: 80px;
-    background-color: #f09162;
 }
 .footer_container{
-    display: inline-block;
-    margin-top: 50px;
-} */
+    display: grid;
+    grid-template-columns: 400px 170px auto auto;
+}
+.footer_container img{
+    width: 100%;
+}
+.footer_link{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 5px;
+} 
+.footer_container div h2{
+    margin-bottom: 20px;
+}
+.footer_container div p{
+    margin-bottom: 10px;
+}
+.footer_down{
+    margin-top: 130px;
+}
+.footer_p{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.footer_contact{
+    margin-bottom: 10px;
+}
+.footer_social{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_icon{
+    display: flex;
+    gap: 12px;
+}
+.footer_pay{
+    display: flex;
+    gap: 12px; 
+    align-items: center;
+}
+.footer_pay img{
+    width: 140px; 
+    height: auto;
+}
+ /* start menu */
+.menu_total{
+    color: #0a174e;
+    text-align: center;
+}
+.container_h1{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* start chef */
 .about_chef{
     width: 100%;
