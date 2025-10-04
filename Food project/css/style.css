@@ -9,6 +9,9 @@
 }
 
 /* start nav */
+.nav{
+    background-color: #ffb590;
+}
 .nav_logo{
     width: 200px;
     height: 180px;
@@ -28,7 +31,7 @@
     text-decoration: none;
 }
 .a_item{
-    color: #0a174e;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
