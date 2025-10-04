@@ -11,6 +11,7 @@
 /* start nav */
 .nav{
     background-color: #ffb590;
+    height: 130px;
 }
 .nav_logo{
     width: 200px;
@@ -56,7 +57,6 @@
 .bunner_photo{
     width: 100%;
     height: -30%;
-    margin-top: -40px;
 }
 .bunner{
     position: relative;
@@ -120,7 +120,6 @@
 .menu_card img{
     width: 100%;
     height: 350px;
-    margin-bottom: 10px;
 }
 .menu_images{
     padding: 5px;
@@ -129,6 +128,7 @@
     text-align: center;
 }
 .menu_images h4{
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .menu_images p{
@@ -140,7 +140,7 @@
     border: 1px solid #a84f22;
     border-radius: 25px;
     padding: 10px 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     transition: color 0.5s ease;
 }
 .menu_button:hover{
@@ -274,13 +274,14 @@
     color: #ffe600;
     margin: 5px 0px;
 }
+/* end service */
 
 /* start footer */
 #footer{
     background-color: #3e2723;
     color: #ffffff;
     padding: 50px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .footer_container{
     display: grid;
@@ -331,46 +332,61 @@
 }
  /* start menu */
 .menu_total{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
     color: #0a174e;
     text-align: center;
 }
 .container_h1{
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.menu_total p{
+    margin-bottom: 20px;
+}
+.menu_container{
+    display: grid;
+    grid-template-columns: 363px 363px 363px;
+    gap: 40px;
+}
+.menu_img_container h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu_container img{
+    width: 100%;
+    height: 350px;
+    /* margin-bottom: 10px; */
+}
+.menu_img_container{
+    border: 1px solid #a84f22;
+    border-radius: 5px;
+    padding: 13px;
+    margin-bottom: 30px;
+}
+.menu_order{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #a84f22;
+    border: 1px solid #a84f22;
+    border-radius: 25px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    transition: color 0.5s ease;
+}
+.menu_order:hover{
+    background-color: #a84f22;
+    color: #ffffff;
+}
+.menu_container img:hover{
+    transform: scale(1.2);
+    transition-duration: .8s;
+}
+.menu_photo{
+    overflow: hidden;
+    border-radius: 5px;
+}
+/* end menu */
 
 /* start chef */
 .about_chef{
@@ -380,11 +396,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
-
-
-    margin-bottom: 50%;
 }
 .chef_image{
     float: left;
@@ -410,4 +421,91 @@
     color: #0a174e;
     line-height: 30px;
 }
+.about_kitchen{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.kitchen_image{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.chef_txt{
+    padding: 0;
+    margin: 0;
+}
+.chef_txt h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 130px;
+    margin-left: 30px;
+    color: #0a174e;
+}
+.chef_txt p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 30px;
+    color: #0a174e;
+    line-height: 30px;
+}
 /* end chef */
+
+/* start service */
+.title{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+.title_txt h4{
+    text-align: center;
+    color: #0a174e;
+    margin-bottom: 10px;
+}
+.title_txt p{
+    text-align: center;
+    color: #0a174e;
+}
+/* end service */
+
+/* start about  */
+.about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.about_img{
+    float: left;
+    margin-left: -80px;
+    margin-top: 50px;
+}
+.about_image{
+    width: 600px;
+    height: 400px;
+}
+.about_container{
+    margin: 0;
+    padding: 0;
+}
+.about_h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 50px;
+    color: #0a174e;
+}
+.about_p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #0a174e;
+    line-height: 30px;
+}
