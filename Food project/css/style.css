@@ -41,7 +41,7 @@
 }
 .quick_order{
     background-color: #a84f22;
-    color: #d7d7d7;
+    color: #ffffff;
     border: 1px solid #a84f22;
     border-radius: 25px;
     padding: 10px 20px;
@@ -296,6 +296,10 @@
     text-decoration: none;
     margin-bottom: 5px;
 } 
+.footer_link:hover{
+    color: #a84f22;
+    transition: color 0.3s ease;
+}
 .footer_container div h2{
     margin-bottom: 20px;
 }
@@ -356,7 +360,6 @@
 .menu_container img{
     width: 100%;
     height: 350px;
-    /* margin-bottom: 10px; */
 }
 .menu_img_container{
     border: 1px solid #a84f22;
@@ -490,7 +493,9 @@
 }
 .contact h1{
     text-align: center;
+    margin-top: 30px;
     margin-bottom: 50px;
+    color: #0a174e;
 }
 .contact_label{
     margin-left: 150px;
@@ -502,6 +507,7 @@ input[type=text],input[type=number],input[type=email]{
     margin-top: 3px;
     margin-left: 150px;
     outline: none;
+    color: #0a174e;
 }
 .contact_message{
     width: 50%;
