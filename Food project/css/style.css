@@ -123,7 +123,7 @@
 }
 .menu_images{
     padding: 5px;
-    border: 1px solid #d7d7d7;
+    border: 1px solid #a84f22;
     border-radius: 5px;
     text-align: center;
 }
@@ -397,9 +397,13 @@
     align-items: center;
     justify-content: center;
 }
+.about_chef img{
+    border-radius: 5px;
+}
 .chef_image{
     float: left;
     margin-right: 30px;
+    margin-left: 20px;
 }
 .chef_text{
     margin: 0;
@@ -421,46 +425,13 @@
     color: #0a174e;
     line-height: 30px;
 }
-.about_kitchen{
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
-    align-items: center;
-    justify-content: center;
-}
-.kitchen_image{
-    float: right;
-    margin-left: 30px;
-    margin-bottom: 100px;
-}
-.chef_txt{
-    padding: 0;
-    margin: 0;
-}
-.chef_txt h1{
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    padding-top: 130px;
-    margin-left: 30px;
-    color: #0a174e;
-}
-.chef_txt p{
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-left: 30px;
-    color: #0a174e;
-    line-height: 30px;
-}
 /* end chef */
 
 /* start service */
 .title{
     width: 80%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .title_txt h4{
     text-align: center;
@@ -475,14 +446,16 @@
 
 /* start about  */
 .about{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    margin-top: 100px;
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .about_img{
     float: left;
-    margin-left: -80px;
+    margin-left: 20px;
     margin-top: 50px;
 }
 .about_image{
@@ -504,8 +477,70 @@
 .about_p{
     text-align: center;
     margin-left: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20px;
     color: #0a174e;
     line-height: 30px;
 }
+/* end about */
+
+/* start contact */
+.contact{
+    width: 50%;
+    margin: auto;
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact_label{
+    margin-left: 150px;
+}
+input[type=text],input[type=number],input[type=email]{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 3px;
+    margin-left: 150px;
+    outline: none;
+}
+.contact_message{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+    outline: none;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus{
+    border: 2px, solid #f09162;
+    border-radius: 3px;
+}
+.contact_message:focus{
+    border: 2px solid #f09162;
+    border-radius: 3px;
+}
+.contact button{
+    margin-left: 250px;
+}
+.button{
+    background-color: #ffffff;
+    color: #a84f22;
+    border: 1px solid #a84f22;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    transition: color 0.5s ease;
+}
+.button:hover{
+    background-color: #a84f22;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+}
+.contact_map{
+    width: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+/* end contact */
