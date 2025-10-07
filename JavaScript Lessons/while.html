@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Lessons</title>
+</head>
+<body>
+    <h1>While Lessons</h1>
+    <script>
+        let screptNo = 5;        
+        let guessNo = prompt('Enter your number between 0 to 9');
+        while (guessNo != screptNo) {
+            if (guessNo < screptNo) {
+                alert('Your Number is Lower, Please Try again!');
+            }else{
+                alert('Your Number is a Greater, Please Try again');
+            }
+            guessNo = prompt('Enter a number between 0 to 9');
+        }
+
+        document.write('Correct');
+        document.write('Your answer is correct times!')
+    </script>
+</body>
+</html>
